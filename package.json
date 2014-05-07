@@ -1,0 +1,21 @@
+{
+  "name": "noisette",
+  "version": "0.1.1",
+  "description": "A phantomjs shim for functional testing",
+  "author": {
+    "name": "Alex Boatwright",
+    "email": "drdelambre@gmail.com"
+  },
+  "homepage": "https://github.com/drdelambre/noisette",
+  "bugs": "https://github.com/drdelambre/noisette/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drdelambre/noisette.git"
+  },
+  "main": "./lib/noisette.js",
+  "dependencies": {
+    "node-phantom": "~0.2.0",
+    "bluebird": "~1.2.0"
+  },
+  "license": "MIT"
+}
